@@ -1,5 +1,4 @@
 import toast, { Toaster } from "react-hot-toast";
-import { fetchImages } from "../../api/api";
 import { useState } from "react";
 import { Audio } from "react-loader-spinner";
 import { IoIosSearch } from "react-icons/io";
