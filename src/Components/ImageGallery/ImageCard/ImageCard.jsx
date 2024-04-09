@@ -1,3 +1,5 @@
+import s from "./ImageGallery.module.css"
+
 const ImageCard = ({ image }) => {
   return (
     <div>
