@@ -10,13 +10,14 @@ const ImageModal = ({
 }) => {
   return (
     <Modal
-      className={s.modal}
+      className={s.modalImg}
       isOpen={isOpen}
       onRequestClose={onRequestClose}
       contentLabel={contentLabel}
     >
       {selectedImage && (
         <img
+          className={s.modalImg}
           src={selectedImage.urls.regular}
           alt={selectedImage.alt_description}
         />
